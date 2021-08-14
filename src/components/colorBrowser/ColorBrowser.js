@@ -8,7 +8,7 @@ export default function ColorBrowser() {
     const [colors, setColors] = useState({
    red: 55, green: 150, blue: 25})
 
-   function updateColors(colorName, value) {
+   function updateColors(colorName, value){
        setColors({...colors, [colorName]: value})
    }
 
